@@ -3,6 +3,7 @@ layout: post
 title: Example content
 ---
 
+this is an example for a post page: Format for filename is yyyy-MM-dd-<name>.md
 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
