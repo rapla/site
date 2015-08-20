@@ -1,0 +1,8 @@
+.idea/
+target/
+.settings/
+src/test/logs/rapla_client.csv
+rapla.iml
+build.properties
+data/
+_site/
