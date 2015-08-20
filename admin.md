@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: default
 title: Example content
 ---
-
+<h3>default template for posts:</h3>
+<h4>Naming convention: yyyy-MM-dd-name.md</h4>
+<h4>Change layout to post</h4>
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 </div>
