@@ -3,7 +3,7 @@ layout: post
 title: Finished migration to github
 ---
 
-It is already a little bit late but now we finished to migrate to github.
+We just finished migrating rapla to github, just before google code switched to read-only.
 <p>You can find the code under <a href="https://github.com/rapla/rapla">https://github.com/rapla/rapla</a>.</p>
 
 
