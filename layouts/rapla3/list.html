@@ -1,5 +1,6 @@
 {{ define "main" }}{{ $pages := where .Pages.ByWeight "Params.tour" "ne" false }}
+<h1>{{ .Title }}</h1><p class="lead">{{ .Description }}</p>{{ .Content }}
 <div class="long"><aside class="toc"><strong>On this page</strong><nav aria-label="On this page"><ul>{{ range $pages }}<li><a href="#{{ .File.ContentBaseName }}">{{ .Title }}</a></li>{{ end }}</ul></nav></aside>
-<article><h1>{{ .Title }}</h1><p class="lead">{{ .Description }}</p>{{ .Content }}
+<article>
 {{ range $pages }}<section id="{{ .File.ContentBaseName }}"><h2>{{ .Title }}</h2><p class="lead">{{ .Description }}</p>{{ .Content | replaceRE "<(/?)h2" "<${1}h3" | safeHTML }}</section>{{ end }}
 </article></div>{{ end }}

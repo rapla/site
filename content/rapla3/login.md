@@ -11,7 +11,7 @@ _build:
 - **Sign in with Microsoft, Google or Keycloak** — Keycloak can connect your organisation's own identity provider
 - **Scoped API keys** for scripts and integrations, rotatable by the user
 
-![Login page with sign-in buttons for Microsoft, Google and Keycloak next to the local login](/images/rapla3/login-providers.png)
+![Sign-in options: Microsoft, Google and Keycloak](/images/rapla3/login-providers.png)
 
 ![Account settings: API keys with scope and expiry](/images/rapla3/api-keys.png)
 
