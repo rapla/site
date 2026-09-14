@@ -1,5 +1,6 @@
 ---
 title: Use cases
+weight: 10
 description: Four ways Rapla is used — with screenshots of the Rapla 3 web app and demo data
 ---
 
@@ -35,4 +36,3 @@ A hospital with two wards, teams per ward and four shifts a day. Planners see wh
 
 ![Week view by person with night, morning and afternoon shifts](/images/use-cases/roster-week.png)
 
-![Read-only station screen with today's shifts on one ward](/images/use-cases/roster-station.png)
