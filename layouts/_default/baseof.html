@@ -16,6 +16,6 @@
 <main>{{ block "main" . }}{{ end }}</main>
 {{ if site.Params.themePicker }}<label class="theme-pick">Theme <select id="theme-pick" onchange="try{localStorage.setItem('theme',this.value)}catch(e){};location.search='?theme='+this.value"><option>schlicht</option><option>klassik</option><option>tafel</option><option>modern</option><option>rapla</option></select></label>
 <script>document.getElementById("theme-pick").value=document.documentElement.dataset.theme</script>{{ end }}
-<footer>Rapla · <a href="https://github.com/rapla/site">Edit this site on GitHub</a></footer>
+<footer>Rapla{{ with .File }} <a class="edit" href="https://github.com/rapla/site/edit/master/content/{{ .Path }}" aria-label="Edit this page on GitHub">✎ Edit</a>{{ end }}</footer>
 </body>
 </html>

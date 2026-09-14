@@ -2,12 +2,12 @@
 /* Spacing & grid proposal: one 8px scale, one left edge, a 40rem reading measure, full-width media */
 :root { --s1:.5rem; --s2:1rem; --s3:1.5rem; --s4:2rem; --s6:3rem; --measure:40rem; }
 main :where(p, ul, ol, h1, h2, h3, table, pre, .lead, .crumb) { max-width:var(--measure); }
-main p:has(> img), .card p, .coming > p { max-width:none; }
+main p:has(> a.img-link), .card p, .coming > p { max-width:none; }
 main p, main ul, main ol, main table, main pre, .shot { margin:0 0 var(--s2); }
 main h1 { margin:var(--s4) 0 var(--s2); }
 main h2 { margin:var(--s6) 0 var(--s2); }
 main h3 { margin:var(--s4) 0 var(--s1); }
-main p:has(> img) { margin:var(--s4) 0; }
+main p:has(> a.img-link) { margin:var(--s4) 0; }
 main li + li { margin-top:.25rem; }
 .hero { text-align:left; padding:var(--s6) 0 var(--s4); }
 .hero p { margin:var(--s1) 0 var(--s3); }

@@ -74,3 +74,4 @@ main:has(.long) { max-width: 72rem; }
 .menu a.external small { font-size:.8em; }
 @media (min-width: 62.01rem) { .menu li.ext { margin-left:.75rem; } }
 .brand[aria-current] { text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:.4em; }
+.edit { font-size:.8rem; font-weight:400; vertical-align:middle; margin-left:.5rem; padding:.05rem .45rem; border:1px solid var(--line); border-radius:3px; text-decoration:none; }
