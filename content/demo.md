@@ -6,7 +6,7 @@ description: Try Rapla 3 and Rapla 2 in your browser
 ## Rapla 3 demo
 
 {{< cards >}}
-{{< card "demo.rapla.org" "https://demo.rapla.org/app/" >}}The new Rapla 3 demo: the current development version in your browser — reset every night.{{< /card >}}
+{{< card "demo.rapla.org" "/rapla3/demo.html" >}}The new Rapla 3 demo: the current development version in your browser — reset every night.{{< /card >}}
 {{< /cards >}}
 
 ## Rapla 2 demos
