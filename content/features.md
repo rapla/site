@@ -3,7 +3,7 @@ title: Features
 description: What Rapla 2 does today
 ---
 
-Rapla speaks many languages: the user interface is available in English, German, French, Spanish, Dutch, Portuguese, Polish, Czech and Finnish.
+Rapla speaks many languages: the user interface is available in English and German, with translations of varying completeness in French, Dutch, Polish, Spanish, Finnish, Portuguese (Brazil) and Czech.
 
 ![Main view with resource tree and week calendar](/images/rapla2_thumbnail.jpg)
 
