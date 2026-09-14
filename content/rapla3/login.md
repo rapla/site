@@ -5,7 +5,7 @@ weight: 30
 ---
 
 - **OAuth 2.0 with PKCE** for the web app and the desktop client
-- **External identity providers** such as Microsoft Entra ID or Keycloak
+- **Sign in with Microsoft, Google or Keycloak** — Keycloak can connect your organisation's own identity provider
 - **Scoped API keys** for scripts and integrations, rotatable by the user
 
 ![Account settings: API keys with scope and expiry](/images/rapla3/api-keys.png)
