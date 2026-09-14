@@ -5,13 +5,11 @@ description: Flexible multi-user resource and event planning
 
 Welcome to Rapla - your resource and event scheduling system.
 
-Rapla is a flexible multi-user resource and event planning system. It features multiple calendar views, conflict management, fully configurable resource and event types and many import/export functions.
+**Who and what is available when?** Rapla answers that for rooms, people and equipment — at universities, schools, hospitals, gyms and seminar houses. Plan events, see free and booked times at a glance and see conflicts before you save.
 
-Available in English, German and many more languages.
+Multiple calendar views, your own resource and event types and many import/export functions — in English, German and many more languages.
 
-It started in 2000 as a programming exercise for a small team of computer science students and has grown into a fully configurable framework for resource and event management.
-
-Today Rapla plans lectures and exams at universities and colleges, but also operating theatres, gyms and hospitals.
+It started in 2000 as a programming exercise for a small team of computer science students. Today it runs in production from small seminar houses to universities that plan more than 20,000 resources such as rooms and people.
 
 {{< cards >}}
 {{< card "Scheduling" "/features.html#scheduling" >}}Month, week and day calendars plus many specialised views, repeating appointments and conflict management.{{< /card >}}
