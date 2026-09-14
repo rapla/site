@@ -6,7 +6,7 @@ weight: 5
 tour: false
 ---
 
-The demo at [demo.rapla.org](https://demo.rapla.org/app/) runs the current development version of Rapla 3 in your browser.
+The demo at [demo.rapla.org](https://demo.rapla.org/) runs the current development version of Rapla 3 in your browser.
 
 {{< cards >}}
 {{< card "Open the web app" "https://demo.rapla.org/app/" >}}Calendar views, events, resources and the template picker.{{< /card >}}
@@ -15,12 +15,12 @@ The demo at [demo.rapla.org](https://demo.rapla.org/app/) runs the current devel
 
 ## Log in
 
-The login page of the demo tells you which account to use.
+The login page of the demo tells you which account to use. More demo users for different roles — planner, lecturer, student, desk staff and a faculty group admin — are listed on the [demo start page](https://demo.rapla.org/).
 
 ## Good to know
 
 - **Everything resets every night** at 04:15 (Europe/Berlin). Feel free to change, create and delete — your changes are gone the next morning, and so are other visitors' changes.
-- **Sample data is coming:** a small faculty over one academic year — courses, rooms, lecturers, loanable equipment and booking requests.
+- **Sample data:** a small faculty over one academic year — courses, rooms, lecturers, loanable equipment and booking requests.
 - **Web app only.** The desktop client is not available on the demo.
 - **Shared instance.** Other visitors use the same data at the same time — please do not enter personal information.
 
@@ -30,4 +30,4 @@ The login page of the demo tells you which account to use.
 - Add a resource type with your own attributes in GraphiQL, using the `saveDynamicType` mutation — a type editor in the web app is on its way.
 - Run a query in GraphiQL, for example `{ resources(filter: { limit: 5 }) { name } }`.
 
-Direct links for personas and prepared views follow here once they are available.
+Direct links to views and public calendars are on the [demo start page](https://demo.rapla.org/).
