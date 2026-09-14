@@ -16,4 +16,4 @@ docker run -d --name rapla -p 127.0.0.1:8051:8051 \
 
 The volumes keep your data across restarts, and the port is only reachable from this machine. Set an admin password right after the first start.
 
-{{< shot "Status page" >}}
+![Server status page with version and build date](/images/rapla3/status-page.png)

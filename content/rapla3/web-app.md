@@ -6,7 +6,7 @@ weight: 10
 
 The new Angular web app runs next to the Swing desktop client against the same server. Both see the same data and the same permissions.
 
-{{< shot "Week view with drag & drop" "Move, copy and resize bookings directly in the calendar." >}}
+![Week view in the web app: bookings for rooms, people and equipment, one being moved by drag & drop](/images/rapla3/week-view.png)
 
 ## Views
 
@@ -17,7 +17,7 @@ The new Angular web app runs next to the Swing desktop client against the same s
 ## Editing
 
 - Create events from templates with the **New** picker
-- Drag to move, copy or split recurring appointments — a review dialog opens before anything is saved
+- Move and resize appointments by drag & drop — moves can be undone; moving one occurrence of a series detaches it
 - Recents and favourites follow you across devices
 
-{{< shot "Event editor with availability" >}}
+![Event editor: appointments and resources with their availability](/images/rapla3/event-editor.png)

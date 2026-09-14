@@ -18,7 +18,7 @@ query {
 
 Filter by type with `typeIn` and read the typed attributes with a fragment such as `... on <TypeKey>Classification` — both are generated from your own resource types.
 
-{{< shot "GraphiQL editor with schema docs" >}}
+![GraphiQL with schema docs, a query and its result](/images/rapla3/graphiql.png)
 
 ## Stored views
 

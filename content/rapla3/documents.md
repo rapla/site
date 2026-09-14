@@ -11,6 +11,6 @@ Documents pair a stored view with a [Mustache](https://mustache.github.io/) temp
 {{#items}}<li>{{name}} — due {{due}}</li>{{/items}}
 ```
 
-{{< shot "Template editor with live preview" >}}
+![Template editor: data tree, Mustache source and live preview](/images/rapla3/template-editor.png)
 
 Planned: a loan lifecycle (lend, return, overdue) and a free-slot search across resources.
