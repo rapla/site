@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/images/favicon.ico">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+{{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+<link rel="stylesheet" href="/css/site.css">
+<link id="theme-css" rel="stylesheet" href="data:text/css,">
+<script>(function(){var t=new URLSearchParams(location.search).get("theme");try{t=t||localStorage.getItem("theme")}catch(e){}t=t||"klassik";document.documentElement.dataset.theme=t;if(t!=="schlicht")document.getElementById("theme-css").href="/css/themes/"+t+".css";})()</script>
+</head>
+<body>
+{{ partial "nav.html" . }}
+<main>{{ block "main" . }}{{ end }}</main>
+<label class="theme-pick">Theme <select id="theme-pick" onchange="try{localStorage.setItem('theme',this.value)}catch(e){};location.search='?theme='+this.value"><option>schlicht</option><option>klassik</option><option>tafel</option><option>modern</option><option>rapla</option></select></label>
+<script>document.getElementById("theme-pick").value=document.documentElement.dataset.theme</script>
+<footer>Rapla · <a href="https://github.com/rapla/site">Edit this site on GitHub</a></footer>
+</body>
+</html>

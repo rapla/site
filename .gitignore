@@ -6,3 +6,8 @@ rapla.iml
 build.properties
 data/
 _site/
+
+# Hugo
+public/
+resources/
+.hugo_build.lock

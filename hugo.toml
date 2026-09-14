@@ -1,0 +1,45 @@
+baseURL = "https://rapla.org/"
+title = "Rapla"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+uglyURLs = true
+
+[params]
+tagline = "Open source resource scheduling and event planning"
+wiki = "https://github.com/rapla/site/wiki"
+
+[markup.highlight]
+noClasses = true
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 2
+
+[[menus.main]]
+name = "Start"
+pageRef = "/"
+weight = 10
+[[menus.main]]
+name = "Features"
+pageRef = "/features"
+weight = 20
+[[menus.main]]
+name = "Demo"
+pageRef = "/demo"
+weight = 30
+[[menus.main]]
+name = "GitHub"
+url = "https://github.com/rapla/rapla"
+weight = 40
+[[menus.main]]
+name = "Download"
+pageRef = "/download"
+weight = 50
+[[menus.main]]
+name = "Support"
+pageRef = "/support"
+weight = 60
+[[menus.main]]
+name = "Rapla 3"
+pageRef = "/rapla3"
+weight = 70
+[menus.main.params]
+class = "highlight"

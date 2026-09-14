@@ -1,0 +1,20 @@
+:root { --fg:#f1f1ea; --muted:#b9c4bb; --bg:#2d3a33; --card:#34443b; --line:#4b5d52; --accent:#f2c14e; }
+@media (prefers-color-scheme: dark) { :root { --fg:#f1f1ea; --muted:#b9c4bb; --bg:#2d3a33; --card:#34443b; --line:#4b5d52; --accent:#f2c14e; } }
+body { background:#2d3a33 radial-gradient(ellipse at 30% 0%, #3b4c43 0%, transparent 60%) fixed; }
+h1, h2, h3, .brand, .badge { font-family:"Chalkboard SE", "Segoe Print", "Bradley Hand", "Comic Sans MS", cursive; letter-spacing:.02em; font-weight:700; }
+.top { background:linear-gradient(#8a6038, #6b4a2b); border-bottom:6px solid #4a321c; backdrop-filter:none; box-shadow:0 4px 12px rgb(0 0 0 / .4); }
+.brand { color:#fff8ec; }
+.menu a { color:#f7ecd9; }
+.menu a:hover, .menu a[aria-current] { background:rgb(255 255 255 / .15); }
+@media (max-width: 62rem) { .menu ul { background:#6b4a2b; border-color:#4a321c; } }
+.hero h1 { font-size:clamp(2.5rem, 8vw, 4.5rem); text-shadow:0 0 12px rgb(255 255 255 / .15); }
+.button { background:#f2c14e; color:#2d3a33; border-radius:.3rem; transform:rotate(-1deg); }
+.button.ghost { background:transparent; color:#f2c14e; border:2px solid #f2c14e; transform:rotate(1deg); }
+.card { background:rgb(255 255 255 / .04); border:2px dashed rgb(255 255 255 / .25); border-radius:.3rem; }
+a.card.link:hover { border-color:#f2c14e; }
+.shot svg rect:first-child { fill:#243029; stroke:rgb(255 255 255 / .2); stroke-width:3; stroke-dasharray:14 10; }
+th, td { border-bottom-style:dashed; }
+footer { border-top:6px solid #4a321c; background:#6b4a2b; max-width:none; padding-inline:max(1rem, calc((100% - 60rem) / 2)); color:#f7ecd9; }
+footer a { color:#fff8ec; }
+.menu a.highlight { color:#2d3a33; background:#f2c14e; }
+.coming { background:rgb(255 255 255 / .04); border:2px dashed rgb(242 193 78 / .6); }

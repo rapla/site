@@ -1,0 +1,2 @@
+{{ define "main" }}{{ partial "r3nav.html" . }}<h1>{{ .Title }}</h1><p class="lead">{{ .Description }}</p>{{ .Content }}
+<nav class="pager">{{ with .PrevInSection }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}<span></span>{{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}</nav>{{ end }}

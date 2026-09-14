@@ -1,0 +1,26 @@
+:root { --fg:#101828; --muted:#475467; --bg:#fcfcfd; --card:#fff; --line:#eaecf0; --accent:#6941c6; }
+@media (prefers-color-scheme: dark) { :root { --fg:#f2f4f7; --muted:#98a2b3; --bg:#0c111d; --card:#161b26; --line:#1f242f; --accent:#9e77ed; } }
+body { font-family:Inter, "Segoe UI Variable", system-ui, sans-serif; }
+h1, h2, h3 { letter-spacing:-.025em; }
+.top { border-bottom-color:transparent; box-shadow:0 1px 0 var(--line); }
+.menu a { font-weight:500; border-radius:99rem; }
+.menu a[aria-current] { background:var(--accent); color:#fff; }
+.hero { position:relative; overflow:hidden; margin-top:1.5rem; padding:5rem 1.5rem; border-radius:1.5rem; color:#fff;
+  background: radial-gradient(circle at 15% 20%, #7f56d9 0, transparent 45%), radial-gradient(circle at 85% 10%, #2e90fa 0, transparent 40%), radial-gradient(circle at 60% 110%, #ee46bc 0, transparent 40%), #101828; }
+.hero h1 { font-size:clamp(2.75rem, 9vw, 5.5rem); letter-spacing:-.04em; }
+.hero p { color:#d0d5dd; }
+.badge { color:#e9d7fe; border-color:rgb(255 255 255 / .25); background:rgb(255 255 255 / .08); }
+.button { border-radius:99rem; background:#fff; color:#101828; padding:.75rem 1.6rem; }
+.button.ghost { background:rgb(255 255 255 / .06); color:#fff; border-color:rgb(255 255 255 / .4); }
+.card { border:1px solid var(--line); border-radius:1rem; padding:1.5rem; box-shadow:0 1px 2px rgb(16 24 40 / .05), 0 12px 24px -8px rgb(16 24 40 / .12); }
+a.card.link { transition:transform .15s, box-shadow .15s; }
+a.card.link:hover { transform:translateY(-3px); box-shadow:0 20px 32px -12px rgb(105 65 198 / .35); }
+.card h2::before { content:""; display:block; width:2.25rem; height:2.25rem; margin-bottom:.75rem; border-radius:.6rem; background:linear-gradient(135deg, #7f56d9, #2e90fa); }
+.shot svg { border-radius:1rem; box-shadow:0 24px 48px -16px rgb(16 24 40 / .25); }
+.toc a[href]:hover { border-left-color:var(--accent); }
+footer { max-width:none; margin-top:4rem; padding-inline:max(1rem, calc((100% - 60rem) / 2)); background:#101828; color:#98a2b3; border-top:0; }
+footer a { color:#fff; }
+.menu a.highlight:not([aria-current]) { background:linear-gradient(135deg, #7f56d9, #2e90fa); color:#fff; }
+.coming { background:#101828; color:#fff; border:0; }
+.coming > p { color:#d0d5dd; }
+.coming .card { color:var(--fg); }

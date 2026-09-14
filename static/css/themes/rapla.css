@@ -1,0 +1,3 @@
+@import url("klassik.css");
+h1, h2, h3, .brand, .badge, .menu a { font-family:"Chalkboard SE", "Segoe Print", "Bradley Hand", "Comic Sans MS", cursive; letter-spacing:.02em; }
+h1, h2, h3, .brand { font-weight:700; }
