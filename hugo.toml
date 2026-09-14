@@ -6,6 +6,8 @@ uglyURLs = true
 [params]
 tagline = "Open source resource scheduling and event planning"
 wiki = "https://github.com/rapla/site/wiki"
+theme = "klassik"
+themePicker = false
 
 [markup.highlight]
 noClasses = true
