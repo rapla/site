@@ -2,6 +2,9 @@
 title: Deployment
 description: One JAR, a Docker image, and several pods if you need them.
 weight: 60
+_build:
+  render: never
+  list: always
 ---
 
 Rapla 3 ships as a single Spring Boot JAR and as the container image `ghcr.io/rapla/rapla`.

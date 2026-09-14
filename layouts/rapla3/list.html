@@ -1,3 +1,5 @@
-{{ define "main" }}{{ partial "r3nav.html" . }}<h1>{{ .Title }}</h1><p class="lead">{{ .Description }}</p>{{ .Content }}
-<div class="cards">{{ range where .Pages.ByWeight "Params.layout" "ne" "long" }}<a class="card link" href="{{ .RelPermalink }}"><h2>{{ .Title }}</h2><p>{{ .Description }}</p></a>{{ end }}</div>
-{{ with .GetPage "tour" }}<p class="actions"><a class="button" href="{{ .RelPermalink }}">All features on one page →</a></p>{{ end }}{{ end }}
+{{ define "main" }}{{ $pages := where .Pages.ByWeight "Params.tour" "ne" false }}
+<div class="long"><aside class="toc"><strong>On this page</strong><nav aria-label="On this page"><ul>{{ range $pages }}<li><a href="#{{ .File.ContentBaseName }}">{{ .Title }}</a></li>{{ end }}</ul></nav></aside>
+<article><h1>{{ .Title }}</h1><p class="lead">{{ .Description }}</p>{{ .Content }}
+{{ range $pages }}<section id="{{ .File.ContentBaseName }}"><h2>{{ .Title }}</h2><p class="lead">{{ .Description }}</p>{{ .Content | replaceRE "<(/?)h2" "<${1}h3" | safeHTML }}</section>{{ end }}
+</article></div>{{ end }}

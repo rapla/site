@@ -1,2 +1,1 @@
-{{ define "main" }}{{ partial "r3nav.html" . }}<h1>{{ .Title }}</h1><p class="lead">{{ .Description }}</p>{{ .Content }}
-<nav class="pager">{{ with .PrevInSection }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}<span></span>{{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}</nav>{{ end }}
+{{ define "main" }}<p class="crumb"><a href="/rapla3.html">Rapla 3</a></p><h1>{{ .Title }}</h1><p class="lead">{{ .Description }}</p>{{ .Content }}{{ end }}

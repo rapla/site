@@ -1,6 +1,0 @@
-{{ define "main" }}{{ if eq .Section "rapla3" }}{{ partial "r3nav.html" . }}{{ end }}
-{{ $pages := where (site.GetPage "/rapla3").Pages.ByWeight "Params.layout" "ne" "long" }}
-<div class="long"><aside class="toc"><strong>On this page</strong><nav><ul>{{ range $pages }}<li><a href="#{{ .File.ContentBaseName }}">{{ .Title }}</a></li>{{ end }}</ul></nav></aside>
-<article><h1>{{ .Title }}</h1><p class="lead">{{ .Description }}</p>{{ .Content }}
-{{ range $pages }}<section id="{{ .File.ContentBaseName }}"><h2>{{ .Title }}</h2><p><em>{{ .Description }}</em> <a href="{{ .RelPermalink }}">More →</a></p>{{ .Content | replaceRE "<(/?)h2" "<${1}h3" | safeHTML }}</section>{{ end }}
-</article></div>{{ end }}

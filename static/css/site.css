@@ -70,3 +70,7 @@ main:has(.long) { max-width: 72rem; }
 .menu input:focus-visible + label { outline:2px solid var(--accent); outline-offset:2px; border-radius:.3rem; }
 .long section { scroll-margin-top:4.5rem; }
 .weekplan { display:none; }
+.menu a.external { display:flex; align-items:center; gap:.35rem; }
+.menu a.external small { font-size:.8em; }
+@media (min-width: 62.01rem) { .menu li.ext { margin-left:.75rem; } }
+.brand[aria-current] { text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:.4em; }

@@ -2,6 +2,9 @@
 title: GraphQL API
 description: One typed API for everything the clients can do.
 weight: 20
+_build:
+  render: never
+  list: always
 ---
 
 Every resource type you configure in Rapla becomes a typed GraphQL object, so a room's attributes are real fields, not strings in a map.

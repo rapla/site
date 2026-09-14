@@ -2,6 +2,9 @@
 title: Web app
 description: Plan in the browser — no installation.
 weight: 10
+_build:
+  render: never
+  list: always
 ---
 
 The new Angular web app runs next to the Swing desktop client against the same server. Both see the same data and the same permissions.

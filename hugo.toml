@@ -16,10 +16,6 @@ startLevel = 2
 endLevel = 2
 
 [[menus.main]]
-name = "Start"
-pageRef = "/"
-weight = 10
-[[menus.main]]
 name = "Features"
 pageRef = "/features"
 weight = 20
@@ -27,10 +23,6 @@ weight = 20
 name = "Demo"
 pageRef = "/demo"
 weight = 30
-[[menus.main]]
-name = "GitHub"
-url = "https://github.com/rapla/rapla"
-weight = 40
 [[menus.main]]
 name = "Download"
 pageRef = "/download"
@@ -45,3 +37,9 @@ pageRef = "/rapla3"
 weight = 70
 [menus.main.params]
 class = "highlight"
+[[menus.main]]
+name = "GitHub"
+url = "https://github.com/rapla/rapla"
+weight = 100
+[menus.main.params]
+external = true

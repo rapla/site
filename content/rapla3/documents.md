@@ -2,6 +2,9 @@
 title: Documents & templates
 description: Loan slips, schedules and notices as HTML or PDF.
 weight: 50
+_build:
+  render: never
+  list: always
 ---
 
 Documents pair a stored view with a [Mustache](https://mustache.github.io/) template. The server renders HTML; PDF comes straight from the browser's print dialog.
