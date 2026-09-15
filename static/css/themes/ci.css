@@ -113,3 +113,4 @@ footer { font-size:.9rem; } .edit { white-space:nowrap; }
 .videos { grid-template-columns: repeat(2, minmax(0, 1fr)); } @media (max-width: 34rem) { .videos { grid-template-columns: 1fr; } }
 .hero .actions { flex-wrap:nowrap; gap:.25rem; white-space:nowrap; }
 @media (max-width: 22.5rem) { .hero .actions { flex-wrap:wrap; row-gap:.5rem; } }
+.h-icon { width:1em; height:1em; margin-right:.35em; vertical-align:-.14em; } .h-icon svg { width:1em; height:1em; }
