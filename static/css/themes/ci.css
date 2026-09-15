@@ -106,3 +106,4 @@ a.card.link:hover { border-color:#c9c4b5; border-top-color:var(--rapla-gold); }
 .brand[aria-current] { text-decoration-color:var(--rapla-gold); }
 .top { position:relative; z-index:10; }
 @media (min-width: 62.01rem) { .menu ul, .menu a.external { align-items:baseline; } .menu a.external svg { align-self:center; } }
+main a.img-link { display:block; width:fit-content; max-width:100%; } main a.img-link img { display:block; } main h2 a.edit { white-space:nowrap; }
