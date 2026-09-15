@@ -85,3 +85,6 @@ footer { font-size:.9rem; }
 .video:hover .thumb > svg { color:#fff; }
 .video .title { display:block; margin-top:.4rem; font-size:.95rem; color:var(--accent); }
 .video .where { display:block; font-size:.8rem; opacity:.75; }
+.uc-icon { float:left; display:grid; place-items:center; width:3rem; height:3rem; margin:.25rem .9rem .25rem 0; border-radius:3px; background:var(--rapla-slate, #35393c); color:var(--rapla-gold, #d2af63); }
+.uc-icon svg { width:1.75rem; height:1.75rem; }
+main p:has(> .uc-icon) { display:flow-root; }

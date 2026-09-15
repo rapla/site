@@ -62,3 +62,7 @@ Pages link to GitHub, YouTube and other websites. We do not embed them; they onl
 ### Your rights
 
 You have the right to access, rectification, erasure, restriction of processing and objection (Art. 15–21 GDPR), and the right to lodge a complaint with a supervisory authority, for example the data protection authority of North Rhine-Westphalia (LDI NRW). To exercise your rights, write to the email address above.
+
+## Third-party components
+
+Icons by [Lucide](https://lucide.dev) (© Lucide Icons and Contributors), ISC License — see [the license text](/images/lucide/LICENSE.txt).
