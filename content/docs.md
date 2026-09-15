@@ -5,6 +5,8 @@ description: Guides for users, administrators and developers — maintained in t
 
 The documentation lives in the {{< wiki "Home" "Rapla wiki" >}}. Everyone with a GitHub account can improve it.
 
+Most of the documentation in the wiki is currently for Rapla 2.0. Documentation for the upcoming Rapla 3.0 is currently mostly in the [docs folder of the Rapla repository](https://github.com/rapla/rapla/tree/master/docs).
+
 {{< cards >}}
 {{< card "Installation" >}}
 
