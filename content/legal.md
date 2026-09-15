@@ -30,7 +30,7 @@ Links to other websites are provided for information; we have no influence on th
 
 erdkante GmbH, address and contact as in the legal notice above.
 
-The servers for rapla.org and demo.rapla.org are provided by IONOS SE; the data centre is in France (EU).
+The servers for rapla.org and demo.rapla.org are provided by IONOS SE, Montabaur, Germany, which processes the data on our behalf under a data processing agreement (Art. 28 GDPR). The data centre is in the EU (currently France).
 
 ### rapla.org
 
