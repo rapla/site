@@ -6,10 +6,14 @@
 <link rel="icon" href="/images/favicon.ico">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
 {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
-<link rel="stylesheet" href="/css/site.css">
-{{ if site.Params.themePicker }}<link id="theme-css" rel="stylesheet" href="data:text/css,">
-<script>(function(){var t=new URLSearchParams(location.search).get("theme");try{t=t||localStorage.getItem("theme")}catch(e){}t=t||{{ site.Params.theme }};document.documentElement.dataset.theme=t;if(t!=="schlicht")document.getElementById("theme-css").href="/css/themes/"+t+".css";})()</script>
-{{ else }}<link rel="stylesheet" href="/css/themes/{{ site.Params.theme }}.css">{{ end }}
+{{ $site := resources.Get "css/site.css" | fingerprint "sha256" }}
+<link rel="stylesheet" href="{{ $site.RelPermalink }}">
+{{ if site.Params.themePicker }}{{ $themes := dict }}
+{{ range $name := slice "ci" "klassik" "tafel" "modern" "rapla" }}{{ with resources.Get (printf "css/themes/%s.css" $name) | fingerprint "sha256" }}{{ $themes = merge $themes (dict $name .RelPermalink) }}{{ end }}{{ end }}
+<link id="theme-css" rel="stylesheet" href="data:text/css,">
+<script>(function(){var u={{ $themes | jsonify | safeJS }};var t=new URLSearchParams(location.search).get("theme");try{t=t||localStorage.getItem("theme")}catch(e){}t=t||{{ site.Params.theme }};document.documentElement.dataset.theme=t;if(u[t])document.getElementById("theme-css").href=u[t];})()</script>
+{{ else }}{{ $theme := resources.Get (printf "css/themes/%s.css" site.Params.theme) | fingerprint "sha256" }}
+<link rel="stylesheet" href="{{ $theme.RelPermalink }}">{{ end }}
 </head>
 <body>
 {{ partial "nav.html" . }}
