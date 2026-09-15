@@ -1,5 +1,6 @@
 ---
 title: Login & API keys
+icon: key-round
 description: Single sign-on, OAuth 2.0 and scoped API keys.
 weight: 30
 _build:

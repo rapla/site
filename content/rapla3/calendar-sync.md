@@ -1,5 +1,6 @@
 ---
 title: Calendar sync
+icon: refresh-cw
 description: Exchange and iCal — keep other calendars in step.
 weight: 40
 _build:

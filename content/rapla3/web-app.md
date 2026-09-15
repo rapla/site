@@ -1,5 +1,6 @@
 ---
 title: Web app
+icon: monitor-smartphone
 description: Plan in the browser — no installation.
 weight: 10
 _build:

@@ -1,5 +1,6 @@
 ---
 title: Documents & templates
+icon: file-text
 description: Loan slips, schedules and notices as HTML or PDF.
 weight: 50
 _build:

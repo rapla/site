@@ -8,7 +8,7 @@ The documentation lives in the {{< wiki "Home" "Rapla wiki" >}}. Everyone with a
 Most of the documentation in the wiki is currently for Rapla 2.0. Documentation for the upcoming Rapla 3.0 is currently mostly in the [docs folder of the Rapla repository](https://github.com/rapla/rapla/tree/master/docs).
 
 {{< cards >}}
-{{< card "Installation" >}}
+{{< card "Installation" "" "server" >}}
 
 - {{< wiki "Installation-Guide" "Installation guide" >}}
 - {{< wiki "Server-Installation" "Server installation" >}}
@@ -17,7 +17,7 @@ Most of the documentation in the wiki is currently for Rapla 2.0. Documentation 
 - {{< wiki "LDAPAuthentication" "LDAP authentication" >}}
 - {{< wiki "Upgrading-To-2_x" "Upgrading to 2.x" >}}
 {{< /card >}}
-{{< card "Users" >}}
+{{< card "Users" "" "users" >}}
 
 - {{< wiki "UserDocumentationEn" "User documentation" >}}
 - {{< wiki "MainView" "Main view" >}}
@@ -26,7 +26,7 @@ Most of the documentation in the wiki is currently for Rapla 2.0. Documentation 
 - {{< wiki "UserDocumentationde" "Anwender-Dokumentation (deutsch)" >}}
 - {{< wiki "Tutorial" "Video tutorials" >}}
 {{< /card >}}
-{{< card "Administration" >}}
+{{< card "Administration" "" "settings" >}}
 
 - {{< wiki "DynamicTypes" "Resource, person and event types" >}}
 - {{< wiki "Categories" "Categories" >}}
@@ -35,7 +35,7 @@ Most of the documentation in the wiki is currently for Rapla 2.0. Documentation 
 - {{< wiki "ChangingResourceColors" "Colours" >}}
 - {{< wiki "TableConfiguration" "Tables" >}}
 {{< /card >}}
-{{< card "Developers" >}}
+{{< card "Developers" "" "code" >}}
 
 - {{< wiki "DevelopersGuide" "Developers guide" >}}
 - {{< wiki "BuildGuide" "Build guide" >}}

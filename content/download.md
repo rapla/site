@@ -3,11 +3,11 @@ title: Download
 description: Get Rapla
 ---
 
-## Rapla 2 — stable
+## {{< icon "download" >}}Rapla 2 — stable {#rapla-2--stable}
 
 Releases up to 2.0 are on [GitHub: rapla/rapla releases](https://github.com/rapla/rapla/releases). Installation: {{< wiki "Installation-Guide" "installation guide" >}}.
 
-## Rapla 3 — nightly {#rapla-3-nightly}
+## {{< icon "flask-conical" >}}Rapla 3 — nightly {#rapla-3-nightly}
 
 Nightly builds of the development branch. Self-signed, untested, **not for production**.
 

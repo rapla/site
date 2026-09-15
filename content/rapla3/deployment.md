@@ -1,5 +1,6 @@
 ---
 title: Deployment
+icon: container
 description: One JAR, a Docker image, and several pods if you need them.
 weight: 60
 _build:

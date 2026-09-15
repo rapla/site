@@ -3,11 +3,11 @@ title: Support
 description: Where to get help with Rapla
 ---
 
-A wiki can be found under <https://github.com/rapla/site/wiki>. See also the [documentation overview](/docs.html) and the {{< wiki "FAQ" "FAQ" >}}.
+{{< icon "book-open" >}}A wiki can be found under <https://github.com/rapla/site/wiki>. See also the [documentation overview](/docs.html) and the {{< wiki "FAQ" "FAQ" >}}.
 
-- **Feature requests and bugs:** [GitHub issues](https://github.com/rapla/rapla/issues)
+- {{< icon "bug" >}}**Feature requests and bugs:** [GitHub issues](https://github.com/rapla/rapla/issues)
 
-## Professional support
+## {{< icon "handshake" >}}Professional support {#professional-support}
 
 The following companies and people provide professional support for Rapla:
 

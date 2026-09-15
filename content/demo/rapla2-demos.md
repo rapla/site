@@ -1,5 +1,6 @@
 ---
 title: Rapla 2 & videos
+icon: history
 weight: 5
 _build:
   render: never

@@ -1,5 +1,5 @@
 {{ define "main" }}<section class="hero"><div class="hero-text"><h1>{{ site.Title }}</h1><p>{{ site.Params.tagline }}</p>
-<p class="actions"><a class="button" href="/download.html">Download</a> <a class="button ghost" href="https://github.com/rapla/rapla">Source code</a></p></div>{{ partial "weekplan.html" . }}</section>{{ .Content }}
+<p class="actions"><a class="button" href="/download.html">{{ partial "icon-plain.html" "download" }}Download</a> <a class="button ghost" href="https://github.com/rapla/rapla">Source code</a></p></div>{{ partial "weekplan.html" . }}</section>{{ .Content }}
 {{ with site.GetPage "/rapla3" }}{{ $r3 := .RelPermalink }}<section class="coming"><h2>{{ .Title }}</h2><p>{{ .Description }}</p>
-<div class="cards">{{ range first 3 (where .Pages.ByWeight "Params.tour" "ne" false) }}<a class="card link" href="{{ $r3 }}#{{ .File.ContentBaseName }}"><h3>{{ .Title }}</h3><p>{{ .Description }}</p></a>{{ end }}</div>
+<div class="cards">{{ range first 3 (where .Pages.ByWeight "Params.tour" "ne" false) }}<a class="card link" href="{{ $r3 }}#{{ .File.ContentBaseName }}"><h3>{{ with .Params.icon }}{{ partial "icon.html" . }}{{ end }}{{ .Title }}</h3><p>{{ .Description }}</p></a>{{ end }}</div>
 <p class="actions"><a class="button" href="{{ .RelPermalink }}">See what's coming</a></p></section>{{ end }}{{ end }}

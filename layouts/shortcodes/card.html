@@ -1,1 +1,1 @@
-<div class="card">{{ with .Get 1 }}<h2><a href="{{ . }}">{{ $.Get 0 }}</a></h2>{{ else }}<h2>{{ .Get 0 }}</h2>{{ end }}{{ .Inner | .Page.RenderString (dict "display" "block") }}</div>
+<div class="card">{{ with .Get 1 }}<h2><a href="{{ . }}">{{ with $.Get 2 }}{{ partial "icon.html" . }}{{ end }}{{ $.Get 0 }}</a></h2>{{ else }}<h2>{{ with .Get 2 }}{{ partial "icon.html" . }}{{ end }}{{ .Get 0 }}</h2>{{ end }}{{ .Inner | .Page.RenderString (dict "display" "block") }}</div>

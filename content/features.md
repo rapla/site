@@ -7,7 +7,7 @@ Rapla speaks many languages: the user interface is available in English and Germ
 
 ![Main view with resource tree and week calendar](/images/rapla2_thumbnail.jpg)
 
-## Scheduling
+## {{< icon "calendar-days" >}}Scheduling {#scheduling}
 
 - Many specialised scheduling views besides the usual month, week and day calendars
 - Reservations group appointments; repeating appointments with exceptions
@@ -19,7 +19,7 @@ Rapla speaks many languages: the user interface is available in English and Germ
 
 ![Conflict view: two weekly reservations overlap on the same resource](/images/wiki/conflicts.png)
 
-## Administration
+## {{< icon "settings" >}}Administration {#administration}
 
 - A fine-grained {{< wiki "Permissions" "permission model" >}}: who may see, book or change what, and when
 - Your own {{< wiki "DynamicTypes" "resource, person and event types" >}} with their own attributes
@@ -28,21 +28,21 @@ Rapla speaks many languages: the user interface is available in English and Germ
 
 ![Preferences: plugin list and table view configuration](/images/wiki/tableconfig1.png)
 
-## Installation
+## {{< icon "server" >}}Installation {#installation}
 
 - Multi-user and multi-language
 - Standalone application or client-server mode
 - Desktop client via Java Web Start / OpenWebStart — no local installation
 - Data in a file or a database: MySQL, PostgreSQL or HSQLDB
 
-## Supported platforms
+## {{< icon "monitor" >}}Supported platforms {#supported-platforms}
 
 | | Platforms |
 |---|---|
 | Client | Linux, Windows, macOS with Java and OpenWebStart |
 | Server | any platform with Java; Jetty included, or any servlet container such as Tomcat |
 
-## Developing
+## {{< icon "code" >}}Developing {#developing}
 
 - Plugin architecture with about a dozen plugins
 - Free and open source — {{< wiki "DevelopersGuide" "contribute" >}}

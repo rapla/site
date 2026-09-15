@@ -1,5 +1,6 @@
 ---
 title: GraphQL API
+icon: braces
 description: One typed API for everything the clients can do.
 weight: 20
 _build:

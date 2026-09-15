@@ -65,4 +65,4 @@ You have the right to access, rectification, erasure, restriction of processing 
 
 ## Third-party components
 
-Icons by [Lucide](https://lucide.dev) (© Lucide Icons and Contributors), ISC License — see [the license text](/images/lucide/LICENSE.txt).
+Icons by [Lucide](https://lucide.dev) (© Lucide Icons and Contributors), ISC License; some icons derive from [Feather](https://feathericons.com) (© Cole Bemis), MIT License — see [the license texts](/images/lucide/LICENSE.txt).
