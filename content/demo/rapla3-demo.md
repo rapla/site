@@ -7,5 +7,5 @@ _build:
 ---
 
 {{< cards >}}
-{{< card "demo.rapla.org" "/rapla3/demo.html" >}}Try Rapla 3 in your browser — how to log in and what to try.{{< /card >}}
+{{< card "demo.rapla.org" "https://demo.rapla.org/" >}}A preview of the first Rapla 3 alpha version, planned for October 2026. Try it in your browser — logins, direct links and public calendars on the demo start page.{{< /card >}}
 {{< /cards >}}
