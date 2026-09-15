@@ -3,9 +3,9 @@ title: Rapla
 description: Flexible multi-user resource and event planning
 ---
 
-Welcome to Rapla, your scheduling system for rooms, people and equipment.
+Welcome to Rapla, your open source scheduling system.
 
-**See at a glance what's free and what's booked.** Rapla does that at universities, schools, hospitals, gyms and seminar houses, and catches double bookings right away.
+**See at a glance what's free and what's booked.** Universities, schools, hospitals, gyms and seminar houses use Rapla to plan their rooms, people and equipment, and to catch double bookings right away.
 
 It gives you several calendar views, resource and event types you define yourself, and plenty of ways to import and export your data. The interface speaks English, German and many more languages.
 
