@@ -128,3 +128,4 @@ footer { font-size:.9rem; } .edit { white-space:nowrap; }
   /* Show the room on phones too, so the doubled room is visible there as well. */
   .wp-b small { display:block; } }
 /* Below ~375px the two side-by-side blocks get too narrow for their titles: stack them instead. */
+@media (max-width: 22.5rem) { .wp-b { padding:.2rem .25rem; } }
