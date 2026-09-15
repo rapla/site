@@ -110,3 +110,4 @@ main a.img-link { display:block; width:fit-content; max-width:100%; } main a.img
 .cards:has(> :nth-child(4):last-child) { grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); }
 .card h3 a { text-decoration:none; }
 footer { font-size:.9rem; } .edit { white-space:nowrap; }
+.videos { grid-template-columns: repeat(2, minmax(0, 1fr)); } @media (max-width: 34rem) { .videos { grid-template-columns: 1fr; } }
