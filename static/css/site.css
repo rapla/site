@@ -85,7 +85,7 @@ footer { font-size:.9rem; }
 .video:hover .thumb > svg { color:#fff; }
 .video .title { display:block; margin-top:.4rem; font-size:.95rem; color:var(--accent); }
 .video .where { display:block; font-size:.8rem; opacity:.75; }
-.h-icon { display:inline-grid; place-items:center; width:1.5em; height:1.5em; margin-right:.45em; vertical-align:-.3em; border-radius:3px; background:var(--rapla-slate, #35393c); color:var(--rapla-gold, #d2af63); }
+.h-icon { display:inline-grid; place-items:center; width:1.5em; height:1.5em; margin-right:.45em; vertical-align:-.3em; border-radius:3px; background:transparent; color:var(--rapla-slate, #35393c); }
 .h-icon svg { width:.95em; height:.95em; }
 .i-plain { display:inline-flex; vertical-align:-.15em; margin-right:.4em; }
 .i-plain svg { width:1.1em; height:1.1em; }

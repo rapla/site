@@ -17,8 +17,8 @@ It started in 2000 as a programming exercise for a small team of computer scienc
 {{< card "Open source" "https://github.com/rapla/rapla" "code" >}}Open source since 2000. Today dual licensed under AGPL-3.0-or-later or Apache-2.0. Source code, issues and contributions on GitHub.{{< /card >}}
 {{< /cards >}}
 
-{{< icon "circle-play" >}}Watch introduction and admin videos on [YouTube](https://www.youtube.com/@rapla2).
+Watch introduction and admin videos on [YouTube](https://www.youtube.com/@rapla2).
 
-{{< icon "code" >}}The source code is available under <https://github.com/rapla/rapla>.
+The source code is available under <https://github.com/rapla/rapla>.
 
-{{< icon "book-open" >}}A wiki can be found under <https://github.com/rapla/site/wiki>.
+A wiki can be found under <https://github.com/rapla/site/wiki>.
