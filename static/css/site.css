@@ -76,3 +76,12 @@ main:has(.long) { max-width: 72rem; }
 .brand[aria-current] { text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:.4em; }
 .edit { font-size:.8rem; font-weight:400; vertical-align:middle; margin-left:.5rem; padding:.05rem .45rem; border:1px solid var(--line); border-radius:3px; text-decoration:none; }
 footer { font-size:.9rem; }
+.videos { display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap:1rem; margin:1rem 0 2rem; }
+.video { display:block; text-decoration:none; color:inherit; }
+.video .thumb { position:relative; display:grid; place-items:center; aspect-ratio:16/9; border-radius:3px; background:var(--rapla-slate, #35393c); color:var(--rapla-gold, #d2af63); }
+.video .thumb > svg { width:3rem; height:3rem; }
+.video .badge-video { position:absolute; right:.5rem; bottom:.5rem; display:flex; padding:.2rem; border-radius:3px; background:var(--rapla-gold, #d2af63); color:var(--rapla-slate, #35393c); }
+.video .badge-video svg { width:1.1rem; height:1.1rem; }
+.video:hover .thumb > svg { color:#fff; }
+.video .title { display:block; margin-top:.4rem; font-size:.95rem; color:var(--accent); }
+.video .where { display:block; font-size:.8rem; opacity:.75; }
