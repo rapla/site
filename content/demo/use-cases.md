@@ -1,6 +1,5 @@
 ---
 title: Use cases
-icon: lightbulb
 weight: 10
 _build:
   render: never

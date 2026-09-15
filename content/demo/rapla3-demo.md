@@ -1,6 +1,5 @@
 ---
 title: Rapla 3 web
-icon: globe
 weight: 1
 _build:
   render: never
