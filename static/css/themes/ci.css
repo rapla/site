@@ -109,3 +109,4 @@ a.card.link:hover { border-color:#c9c4b5; border-top-color:var(--rapla-gold); }
 main a.img-link { display:block; width:fit-content; max-width:100%; } main a.img-link img { display:block; } main h2 a.edit { white-space:nowrap; }
 .cards:has(> :nth-child(4):last-child) { grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); }
 .card h3 a { text-decoration:none; }
+footer { font-size:.9rem; } .edit { white-space:nowrap; }

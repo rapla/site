@@ -42,7 +42,7 @@ When you open a page, the web server logs the request: IP address, date and time
 
 The demo is a public Rapla 3 installation for trying the software.
 
-- **Server logs:** the web server logs requests as for rapla.org (deleted after 14 days). The Rapla application behind it keeps its own access log in the same format, including the IP address, for **30 days**, and an application log with the user names of login attempts (no IP addresses), also for 30 days. The same application messages go to the system journal, which is only limited by size and reaches back at most a few months. We use these logs to run the demo and to detect errors and misuse (Art. 6 (1) (f) GDPR).
+- **Server logs:** the web server logs requests as for rapla.org (deleted after 14 days). The Rapla application behind it keeps its own access log in the same format, including the IP address, also for **14 days**, and an application log with the user names of login attempts (no IP addresses) for 30 days. The same application messages go to the system journal, which is only limited by size and reaches back at most a few months. We use these logs to run the demo and to detect errors and misuse (Art. 6 (1) (f) GDPR).
 - **Cookies:** the demo only uses cookies that are technically necessary or that store a choice you made, so no consent is needed (§ 25 (2) TDDDG):
   - `XSRF-TOKEN` (session) — protection against forged requests
   - `JSESSIONID` (session), `access_token` (1 hour), `refresh_token` (up to 21 days) — keep you logged in
