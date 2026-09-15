@@ -13,7 +13,7 @@ Nightly builds of the development branch. Self-signed, untested, **not for produ
 
 | Channel | Where |
 |---|---|
-| JAR | [rapla.jar](https://github.com/rapla/rapla-releases/releases/download/nightly/rapla.jar) |
+| JAR | [nightly release](https://github.com/rapla/rapla-releases/releases/tag/nightly) |
 | Docker image | `ghcr.io/rapla/rapla:nightly` |
 
 ```sh
