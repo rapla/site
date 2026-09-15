@@ -1,5 +1,5 @@
 ---
-title: Rapla 3 demo
+title: Rapla 3 web
 weight: 1
 _build:
   render: never

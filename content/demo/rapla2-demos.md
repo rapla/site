@@ -1,5 +1,5 @@
 ---
-title: Rapla 2 demos
+title: Rapla 2 & videos
 weight: 5
 _build:
   render: never
