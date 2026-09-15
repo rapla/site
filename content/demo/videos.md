@@ -2,6 +2,9 @@
 title: Videos
 description: Introduction videos for Rapla 2
 weight: 20
+_build:
+  render: never
+  list: always
 ---
 
 The Rapla 2 videos walk you from an empty installation to the campus demos.

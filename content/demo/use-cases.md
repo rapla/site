@@ -1,6 +1,9 @@
 ---
 title: Use cases
 weight: 10
+_build:
+  render: never
+  list: always
 description: Four ways Rapla is used — with screenshots of the Rapla 3 web app and demo data
 ---
 

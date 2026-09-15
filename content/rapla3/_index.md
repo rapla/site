@@ -1,5 +1,6 @@
 ---
 title: What's coming in Rapla 3
+layout: tour
 description: A web app, a GraphQL API and a modern server — alpha planned for October 2026.
 ---
 

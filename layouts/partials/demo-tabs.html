@@ -1,5 +1,0 @@
-{{ $s := site.GetPage "/demo" }}
-<nav class="subnav" aria-label="Demo sections">
-<a href="{{ $s.RelPermalink }}"{{ if eq $.RelPermalink $s.RelPermalink }} aria-current="page"{{ end }}>{{ $s.LinkTitle }}</a>
-{{ range $s.Pages.ByWeight }}<a href="{{ .RelPermalink }}"{{ if eq $.RelPermalink .RelPermalink }} aria-current="page"{{ end }}>{{ .LinkTitle }}</a>{{ end }}
-</nav>
