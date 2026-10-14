@@ -1,0 +1,9 @@
+ # Pages CMS config for rapla.org — https://pagescms.org/docs/configuration/
+  media:
+   input: static/images
+   output: /images
+   extensions: [png, jpg, jpeg, webp, gif, svg]
+
+ settings:
+   content:
+     merge: true # keep keys not modelled below (_build, aliases)
