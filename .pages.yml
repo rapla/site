@@ -1,9 +1,62 @@
- # Pages CMS config for rapla.org — https://pagescms.org/docs/configuration/
-  media:
-   input: static/images
-   output: /images
-   extensions: [png, jpg, jpeg, webp, gif, svg]
+# Pages CMS config for rapla.org — https://pagescms.org/docs/configuration/
+media:
+  input: static/images
+  output: /images
+  extensions: [png, jpg, jpeg, webp, gif, svg]
 
- settings:
-   content:
-     merge: true # keep keys not modelled below (_build, aliases)
+settings:
+  content:
+    merge: true # keep keys not modelled below (_build, aliases)
+
+content:
+  - name: pages
+    label: Pages
+    type: collection
+    path: content
+    subfolders: true
+    filename:
+      template: "{primary}.md"
+      field: create
+    view:
+      fields: [title, description, weight]
+      primary: title
+      sort: [weight, title]
+      default:
+        sort: weight
+        order: asc
+    fields:
+      - name: title
+        type: string
+        required: true
+      - name: linkTitle
+        label: Menu title
+        type: string
+        description: Shorter title for menus, if different.
+      - name: description
+        type: text
+      - name: weight
+        type: number
+        description: Order inside the section, lower first.
+      - name: layout
+        type: select
+        description: Leave empty for the normal page layout.
+        options:
+          values: [tour]
+      - name: icon
+        type: select
+        description: Card icon (static/images/lucide).
+        options:
+          values: [book-open, braces, bug, calendar-days, calendar-plus, camera, code, container, download, file-text, flask-conical, graduation-cap, handshake, hospital, house, key-round, layers, monitor-smartphone, monitor, refresh-cw, server, settings, shield-check, users, video]
+      # Markdown source, not WYSIWYG: pages use Hugo shortcodes ({{< card >}}, {{< wiki >}}, ...).
+      - name: body
+        label: Content
+        type: code
+        options:
+          format: markdown
+
+  - name: hugo
+    label: Site config (hugo.toml, menus)
+    type: file
+    path: hugo.toml
+    operations:
+      delete: false
